@@ -1,0 +1,149 @@
+/* This is a comment. You can write anything here. It won't be executed. It's good to
+write some notes about your code so that you can understand it later. */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Here we define the font family for the whole body if not otherwise defined. */
+  font-family: 'Palanquin', sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+a {
+  color: #1A3E6E;
+}
+
+
+/* Headings */
+/* Here we define that the font family for all headings should be Poppins. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #1A3E6E;
+  padding-bottom: 20px;
+}
+
+h1 {
+  background-color: rgba(156, 83, 0, 0.664);
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-top: 25px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+
+/* Header */
+.header {
+  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(255, 166, 0, 0.623)),
+  url("../images/bg-image-computer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: 250px;
+}
+
+
+/* Navigation */
+/* #navigation is an id selector */
+#navigation {
+  background: #EBBE1B;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
+
+#navigation a {
+  color:  #860050;
+  text-decoration: none;
+  padding: 20px 10px;
+}
+
+#navigation a:hover {
+  color:  #fff;
+}
+
+
+/* Sections */
+.color-section {
+  background-color: #860050;
+  color: #fff;
+}
+
+.color-section h2 {
+  color: white;
+}
+
+.color-section a {
+  color: #EBBE1B;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+  .container-list {
+  padding: 7% 40%;
+}
+
+@media only screen and (max-width: 930px) {
+  .container-fluid {
+    padding: 3% 5%;
+  }
+
+  .container-list {
+    padding: 7% 20%;
+  }
+}
+
+
+/* Contact */
+#contact p {
+  font-size: 1.2em;
+}
+
+
+/* Footer */
+.footer {
+  padding: 2% 5%;
+}
+
+
+/* Other classes */
+.lists-align-left p, ol, ul{
+  text-align: left;
+}
+
+.profile-photo {
+  height: 200px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+.statement {
+  font-size: 1.7em;
+  font-weight: bold;
+}
